@@ -1,0 +1,82 @@
+* {
+  font-family: monospace;
+  text-transform: uppercase;
+}
+
+body {
+    background-color: black;
+    
+}
+
+#mydiv {
+  background-color: darkgreen;
+  border: 1px solid greenyellow;
+  color: greenyellow;
+  width: 300px;
+  height: 800px;
+  padding: 16px;
+  margin: 36px;
+  float: left;
+}
+
+.radar {
+  background-color: darkgreen;
+  border: 1px solid greenyellow;
+  color: greenyellow;
+  width: 1460px;
+  height: 830px;
+  float: left;
+  margin-top: 36px;
+  margin-left: 400px;
+  z-index: -2;
+  position: absolute;
+}
+
+.screen {
+  position: absolute;
+  margin-left: 250px;
+  margin-top: 80px;
+  z-index: -1;
+  pointer-events: none;
+}
+
+.shape {
+  position: absolute;
+}
+
+label {
+    font-size: xx-large;
+    width: 100%;
+    float: left;
+    text-align: center;
+    padding-top: 1em;
+    padding-bottom: 1.5em;
+}
+
+#shapeType {
+    padding: 13px;
+    margin-bottom: 40px;
+    background-color: darkgreen;
+    color: greenyellow;
+    border: 1px ridge greenyellow;
+}
+
+button {
+    padding: 14px;
+    background-color: greenyellow;
+    color: darkgreen;
+    border: none;
+    font-weight: bolder;
+    cursor: pointer;
+}
+
+button:hover {
+  background-color: black;
+  color: greenyellow;
+  outline: 2px ridge greenyellow;
+}
+
+select {
+  border: none;
+  outline: none;
+}
